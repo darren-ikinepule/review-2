@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background-image-container: #12ee56;
+  --background-body: #141414;
+  --text-color: white;
+}
+
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column;
+  background-color: var(--background-body);
+  color: var(--text-color);
+
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 50px;
+  font-size: 2em;
+  padding: 16px;
+}
+
+header img {
+  width: 50px;
+  height: auto;
+}
+
+a {
+  color: white;
+  font-size: 3em;
+}
+
+.pizza-img {
+    border: 20px solid #12ee56;
+    border-radius: 1em;
+}
