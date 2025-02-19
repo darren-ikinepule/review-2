@@ -12,14 +12,16 @@
 
 body {
   display: flex;
+  flex-flow: column;
   width: 100vw;
   height: 100vh;
-  justify-content: space-around;
-  align-items: center;
-  flex-flow: column;
-  background-color: var(--background-body);
-  color: var(--text-color);
+  background-color: #141414;
+  color: white;
+}
 
+img {
+  width: 300px;
+  height: auto;
 }
 
 header {
@@ -30,19 +32,38 @@ header {
   height: 50px;
   font-size: 2em;
   padding: 16px;
+  margin: 16px auto;
 }
 
-header img {
-  width: 50px;
-  height: auto;
+
+.emojis-wrapper {
+  margin: 0 16px;
 }
+
 
 a {
   color: white;
-  font-size: 3em;
+  font-size: 2em;
+  padding: 16px;
+  margin: 16px;
 }
 
 .pizza-img {
-    border: 20px solid #12ee56;
-    border-radius: 1em;
+  border: 10px solid #12ee56;
+  border-radius: 1em;
+}
+
+form {
+  margin: 20px 0;
+}
+label, input {
+  margin: 20px 0px;
+  font-size: 1.5em;
+}
+
+.submit {
+  border-radius: 10px;
+  padding: 3px 10px;
+  font-size: 1.2em;
+  cursor: pointer;
 }
